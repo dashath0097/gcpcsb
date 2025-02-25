@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "my_bucket" {
-  name          = "my-unique-bucket-name"  # Replace with a globally unique name
+  name          = "dashath_bucket"  # Replace with a globally unique name
   location      = "US"  # Specify the bucket location
   storage_class = "STANDARD"  # Storage class: STANDARD, NEARLINE, COLDLINE, ARCHIVE
 
